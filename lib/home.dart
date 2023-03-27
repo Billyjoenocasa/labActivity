@@ -14,6 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black,
         leading: const Icon(Icons.check_circle),
         title: const Text('Shopee'),
       ),
@@ -40,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         items.add(item.text);
                       });
                     },
-                    child: const Text('ADD'),
+                    child: const Text('IKABIL'),
                   ),
                 ],
               ),
