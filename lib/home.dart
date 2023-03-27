@@ -32,6 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
               controller: item,
             ),
             Container(
+              padding: const EdgeInsets.all(10),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
@@ -59,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               items.removeAt(index);
                             });
                           },
-                          icon: Icon(Icons.delete_forever)),
+                          icon: const Icon(Icons.delete_forever)),
                     ),
                   );
                 },
